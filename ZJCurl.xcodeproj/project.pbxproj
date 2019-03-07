@@ -10,15 +10,15 @@
 		0CB9752B223126B2008FD089 /* ZJCurl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CB97521223126B2008FD089 /* ZJCurl.framework */; };
 		0CB97530223126B2008FD089 /* ZJCurlTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CB9752F223126B2008FD089 /* ZJCurlTests.m */; };
 		0CB97532223126B2008FD089 /* ZJCurl.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CB97524223126B2008FD089 /* ZJCurl.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0CB9757A2231282A008FD089 /* stdcheaders.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CB975702231282A008FD089 /* stdcheaders.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0CB9757B2231282A008FD089 /* mprintf.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CB975712231282A008FD089 /* mprintf.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0CB9757C2231282A008FD089 /* easy.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CB975722231282A008FD089 /* easy.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0CB9757D2231282A008FD089 /* curl.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CB975732231282A008FD089 /* curl.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0CB9757E2231282A008FD089 /* curlver.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CB975742231282A008FD089 /* curlver.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0CB9757F2231282A008FD089 /* system.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CB975752231282A008FD089 /* system.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0CB975802231282A008FD089 /* typecheck-gcc.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CB975762231282A008FD089 /* typecheck-gcc.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0CB975812231282A008FD089 /* multi.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CB975772231282A008FD089 /* multi.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0CB975822231282A008FD089 /* libcurl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CB975792231282A008FD089 /* libcurl.a */; };
+		0CB9758D22312A4B008FD089 /* stdcheaders.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CB9758422312A4B008FD089 /* stdcheaders.h */; };
+		0CB9758E22312A4B008FD089 /* mprintf.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CB9758522312A4B008FD089 /* mprintf.h */; };
+		0CB9758F22312A4B008FD089 /* easy.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CB9758622312A4B008FD089 /* easy.h */; };
+		0CB9759022312A4B008FD089 /* curl.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CB9758722312A4B008FD089 /* curl.h */; };
+		0CB9759122312A4B008FD089 /* curlver.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CB9758822312A4B008FD089 /* curlver.h */; };
+		0CB9759222312A4B008FD089 /* libcurl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CB9758922312A4B008FD089 /* libcurl.a */; };
+		0CB9759322312A4B008FD089 /* system.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CB9758A22312A4B008FD089 /* system.h */; };
+		0CB9759422312A4B008FD089 /* typecheck-gcc.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CB9758B22312A4B008FD089 /* typecheck-gcc.h */; };
+		0CB9759522312A4B008FD089 /* multi.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CB9758C22312A4B008FD089 /* multi.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,15 +38,15 @@
 		0CB9752A223126B2008FD089 /* ZJCurlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZJCurlTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CB9752F223126B2008FD089 /* ZJCurlTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJCurlTests.m; sourceTree = "<group>"; };
 		0CB97531223126B2008FD089 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0CB975702231282A008FD089 /* stdcheaders.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stdcheaders.h; sourceTree = "<group>"; };
-		0CB975712231282A008FD089 /* mprintf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mprintf.h; sourceTree = "<group>"; };
-		0CB975722231282A008FD089 /* easy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = easy.h; sourceTree = "<group>"; };
-		0CB975732231282A008FD089 /* curl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = curl.h; sourceTree = "<group>"; };
-		0CB975742231282A008FD089 /* curlver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = curlver.h; sourceTree = "<group>"; };
-		0CB975752231282A008FD089 /* system.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = system.h; sourceTree = "<group>"; };
-		0CB975762231282A008FD089 /* typecheck-gcc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "typecheck-gcc.h"; sourceTree = "<group>"; };
-		0CB975772231282A008FD089 /* multi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = multi.h; sourceTree = "<group>"; };
-		0CB975792231282A008FD089 /* libcurl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libcurl.a; sourceTree = "<group>"; };
+		0CB9758422312A4B008FD089 /* stdcheaders.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stdcheaders.h; sourceTree = "<group>"; };
+		0CB9758522312A4B008FD089 /* mprintf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mprintf.h; sourceTree = "<group>"; };
+		0CB9758622312A4B008FD089 /* easy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = easy.h; sourceTree = "<group>"; };
+		0CB9758722312A4B008FD089 /* curl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = curl.h; sourceTree = "<group>"; };
+		0CB9758822312A4B008FD089 /* curlver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = curlver.h; sourceTree = "<group>"; };
+		0CB9758922312A4B008FD089 /* libcurl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libcurl.a; sourceTree = "<group>"; };
+		0CB9758A22312A4B008FD089 /* system.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = system.h; sourceTree = "<group>"; };
+		0CB9758B22312A4B008FD089 /* typecheck-gcc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "typecheck-gcc.h"; sourceTree = "<group>"; };
+		0CB9758C22312A4B008FD089 /* multi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = multi.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0CB975822231282A008FD089 /* libcurl.a in Frameworks */,
+				0CB9759222312A4B008FD089 /* libcurl.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,7 +92,7 @@
 			children = (
 				0CB97524223126B2008FD089 /* ZJCurl.h */,
 				0CB97525223126B2008FD089 /* Info.plist */,
-				0CB9756D2231282A008FD089 /* libcurl-ios */,
+				0CB9758322312A4B008FD089 /* curl */,
 			);
 			path = ZJCurl;
 			sourceTree = "<group>";
@@ -106,44 +106,20 @@
 			path = ZJCurlTests;
 			sourceTree = "<group>";
 		};
-		0CB9756D2231282A008FD089 /* libcurl-ios */ = {
+		0CB9758322312A4B008FD089 /* curl */ = {
 			isa = PBXGroup;
 			children = (
-				0CB9756E2231282A008FD089 /* include */,
-				0CB975782231282A008FD089 /* lib */,
-			);
-			path = "libcurl-ios";
-			sourceTree = "<group>";
-		};
-		0CB9756E2231282A008FD089 /* include */ = {
-			isa = PBXGroup;
-			children = (
-				0CB9756F2231282A008FD089 /* curl */,
-			);
-			path = include;
-			sourceTree = "<group>";
-		};
-		0CB9756F2231282A008FD089 /* curl */ = {
-			isa = PBXGroup;
-			children = (
-				0CB975702231282A008FD089 /* stdcheaders.h */,
-				0CB975712231282A008FD089 /* mprintf.h */,
-				0CB975722231282A008FD089 /* easy.h */,
-				0CB975732231282A008FD089 /* curl.h */,
-				0CB975742231282A008FD089 /* curlver.h */,
-				0CB975752231282A008FD089 /* system.h */,
-				0CB975762231282A008FD089 /* typecheck-gcc.h */,
-				0CB975772231282A008FD089 /* multi.h */,
+				0CB9758422312A4B008FD089 /* stdcheaders.h */,
+				0CB9758522312A4B008FD089 /* mprintf.h */,
+				0CB9758622312A4B008FD089 /* easy.h */,
+				0CB9758722312A4B008FD089 /* curl.h */,
+				0CB9758822312A4B008FD089 /* curlver.h */,
+				0CB9758922312A4B008FD089 /* libcurl.a */,
+				0CB9758A22312A4B008FD089 /* system.h */,
+				0CB9758B22312A4B008FD089 /* typecheck-gcc.h */,
+				0CB9758C22312A4B008FD089 /* multi.h */,
 			);
 			path = curl;
-			sourceTree = "<group>";
-		};
-		0CB975782231282A008FD089 /* lib */ = {
-			isa = PBXGroup;
-			children = (
-				0CB975792231282A008FD089 /* libcurl.a */,
-			);
-			path = lib;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -153,15 +129,15 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0CB9757D2231282A008FD089 /* curl.h in Headers */,
-				0CB975812231282A008FD089 /* multi.h in Headers */,
-				0CB9757E2231282A008FD089 /* curlver.h in Headers */,
+				0CB9759522312A4B008FD089 /* multi.h in Headers */,
+				0CB9759122312A4B008FD089 /* curlver.h in Headers */,
+				0CB9759022312A4B008FD089 /* curl.h in Headers */,
 				0CB97532223126B2008FD089 /* ZJCurl.h in Headers */,
-				0CB9757A2231282A008FD089 /* stdcheaders.h in Headers */,
-				0CB9757C2231282A008FD089 /* easy.h in Headers */,
-				0CB9757B2231282A008FD089 /* mprintf.h in Headers */,
-				0CB9757F2231282A008FD089 /* system.h in Headers */,
-				0CB975802231282A008FD089 /* typecheck-gcc.h in Headers */,
+				0CB9758D22312A4B008FD089 /* stdcheaders.h in Headers */,
+				0CB9758F22312A4B008FD089 /* easy.h in Headers */,
+				0CB9758E22312A4B008FD089 /* mprintf.h in Headers */,
+				0CB9759322312A4B008FD089 /* system.h in Headers */,
+				0CB9759422312A4B008FD089 /* typecheck-gcc.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,6 +398,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/ZJCurl/libcurl-ios/lib",
+					"$(PROJECT_DIR)/ZJCurl/curl",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.lzj.ZJCurl;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
@@ -451,6 +428,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/ZJCurl/libcurl-ios/lib",
+					"$(PROJECT_DIR)/ZJCurl/curl",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.lzj.ZJCurl;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
